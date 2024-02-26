@@ -58,20 +58,6 @@ while(i7 >= 6){
     i8 = i8 + 1
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  let i9 = 2
  while(i9 <= 6){
     if(i9 == 4) {
@@ -80,6 +66,8 @@ while(i7 >= 6){
     console.log(i9)
     i9 = i9 + 1
  }
+
+ 
 
 
 
