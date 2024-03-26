@@ -99,3 +99,48 @@ console.log(sub2)
 
 
 
+
+
+// let cities = ["nagpur","pune","mumbai"]
+// let a = cities[0]
+// let b = cities[1]
+// let c = cities[2]
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// let info = {
+//     firstName : "ramesh",
+//     lastName : "suresh"
+// }
+//  let {firstName,lastName} = info
+// console.log(firstName)
+// console.log(lastName)
+
+// let info2 = {
+//     firstName : "monty",
+//     lastName : "badge",
+//     skills: ['javascript','python']
+// }
+
+// let {firstName:fn,lastName:ln,skills:[sub1,sub2]} = info2 
+// console.log(fn)
+// console.log(ln)
+// console.log(sub1)
+// console.log(sub2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

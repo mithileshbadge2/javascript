@@ -2,29 +2,29 @@
 
 let city = "Pune"
  switch(city){
-     case "Pune":
+    case "Pune":
          console.log("MH")
     case "Jaipur":
          console.log("RJ")
-     case "Bhopal":
+    case "Bhopal":
          console.log("MP")
-     default:
+    default:
          console.log("Incorrect city")
 }
 
 
  let cities = "nagpur"
  switch(cities){
-     case "nagpur":
+    case "nagpur":
          console.log("MH")
          break
-     case "Jaipur":
+    case "Jaipur":
          console.log("RJ")
          break
-     case "Bhopal":
+    case "Bhopal":
          console.log("MP")
          break
-     default:
+    default:
          console.log("Incorrect city")
  }
 
