@@ -1,28 +1,28 @@
-let monty = {
-    firstName: "monty",
-    lastName: "badge",
-    displayName:function(){
-        console.log(this.firstName + this.lastName)
-    }
-}
+// let monty = {
+//     firstName: "monty",
+//     lastName: "badge",
+//     displayName:function(){
+//         console.log(this.firstName + this.lastName)
+//     }
+// }
 
-let amol = {
-    firstName: "amol",
-    lastName: "rao"
-}
+// let amol = {
+//     firstName: "amol",
+//     lastName: "rao"
+// }
 
 // let displayName2 = monty.displayName
-let displayName2 = function(){
-    console.log(this.firstName + this.lastName)
-}
-displayName2()
+// // let displayName2 = function(){
+// //     console.log(this.firstName + this.lastName)
+// // }
+// displayName2()
 
-// bind
-let q = displayName2.bind(amol)
-q()
-// let q  = function(){
-//     console.log(amol.firstName + amol.lastName)
-// }
+// // bind
+// let q = displayName2.bind(amol)
+// q()
+// // let q  = function(){
+// //     console.log(amol.firstName + amol.lastName)
+// // }
 
 // let  mithilesh = {
 //     firstName: "mithilesh",
@@ -43,11 +43,11 @@ q()
 //     console.log(this.firstName + this.lastName)
 // }
 
-// displayName3.bind(monty)()
+// displayName3.bind(mithilesh)()
 // displayName3.bind(vedant)()
 // displayName3.bind(nirnay)()
 
-// call
+//call
 let  mithilesh = {
     firstName: "mithilesh",
     lastName: "badge"
@@ -68,19 +68,12 @@ let displayName4 = function(a,b){
     console.log(a)
     console.log(b)
 }
-displayName4.call(mithilesh,"hi")
-displayName4.call(vedant,"hi")
-displayName4.call(nirnay,"hi")
+displayName4.call(mithilesh,"hi","bye")
+displayName4.call(vedant,"hi","bye")
+displayName4.call(nirnay,"hi","bye")
 
-// apply
+// // apply
 displayName4.apply(mithilesh,['bye','good'])
-
-
-let a = monty.displayName
-let a1 = function(){
-    console.log(this.firstName + this.lastName)
-}
-a1()
 
 
 
