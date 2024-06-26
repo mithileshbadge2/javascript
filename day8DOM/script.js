@@ -11,6 +11,23 @@ addButton.addEventListener('click',function(){
     inputElement.value = ""
 })
 
+ullist.addEventListener('click',function(event){
+    if(event.target.tagName === "BUTTON"){
+        if(event.target.className === "remove"){
+            let li = event.target.parentElement
+            let ul = li.parentElement
+            ul.removeChild(li)
+        }
+        else if(event.target.className === "up"){
+
+        }
+        else if(event.target.className === "down"){
+
+        }
+    }
+
+})
+
 function createButton(li){
     let remove = document.createElement('button')
     remove.classList.add('remove')
